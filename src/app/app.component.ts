@@ -12,4 +12,5 @@ export class AppComponent  {
   fullname : function () {
     return this.person.fname + " " + this.person.lname; }
  };
+ consle.log(fullname );
 }
