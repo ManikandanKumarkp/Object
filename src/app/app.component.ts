@@ -8,9 +8,9 @@ import { Component, VERSION } from '@angular/core';
 export class AppComponent  {
   name = 'Angular ' + VERSION.major;
 
-  let person = { fname:"mani ",lname :"kandan ",
+  let person = { fname:"mani ", lname :"kandan ",
   fullname : function () {
     return this.person.fname + " " + this.person.lname; }
- consle.log(fullname );
+ consle.log(person );
   };
 }
