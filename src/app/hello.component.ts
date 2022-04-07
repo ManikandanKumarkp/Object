@@ -8,6 +8,6 @@ import { Component, Input } from '@angular/core';
 })
 export class HelloComponent  {
   @Input() name: string;
-const  cars =new Array ["valvo","version","dob"];
-document.getbyelmentid("demo").innerhtml = cars;
+const cars = ["Saab", "Volvo", "BMW"];
+document.getElementById("demo").innerHTML = cars;
 }
