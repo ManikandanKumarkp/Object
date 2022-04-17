@@ -8,7 +8,8 @@ import { Component, Input } from '@angular/core';
 export class HelloComponent  {
   @Input() name: string;
  
-  function click(){
+  function onclick(){
+    document.getelementbyid('demo').InnerHTMLl= alert ('button is clicked ')
     
   }
 }
