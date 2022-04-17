@@ -8,7 +8,6 @@ import { Component, Input } from '@angular/core';
 export class HelloComponent  {
   @Input() name: string;
  
-  function click(){
-    console.log( click) ;
-  }
+  
+  
 }
