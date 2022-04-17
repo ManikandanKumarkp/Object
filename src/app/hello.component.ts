@@ -9,7 +9,8 @@ export class HelloComponent  {
   @Input() name: string;
  
   function onclick(){
-    document.getelementbyid('demo').InnerHTMLl= alert ('button is clicked ')
+    
+    document.getelementbyid('demo').InnerHTMLl= "button clicked ";
     
   }
 }
